@@ -268,8 +268,8 @@ On your way to success, we aim to be your companion guiding you through the hard
 </div>
 </footer>
 
-<script type="text/javascript" src="{{ asset('js/front/jquery.min.js') }}"></script>
-<script type="text/javascript" src="{{ asset('js/front/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('js/bootstrap.min.js') }}"></script>
 
 
 </body>
