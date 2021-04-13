@@ -34,8 +34,8 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
             <div class="logoarea">
                <div class="col-md-4 col-sm-4 col-xs-12 padXZ pad00">
                   <a class="navbar-brand" href="/">
-                  <p class="vacancyfrom"><span>Vacancy Form</span>
-                  <br><span style="" class="paraarea"> Information Portal</span>
+                  <p class="vacancyfrom"><span>Naukri Wale</span>
+                  <br><span style="font-size: 8px;" class="paraarea">A UNIT OF SHRI RADHEYSHYAM JINDGAR CHARITABLE TRUST</span>
                   </p>
                   <!--<img src="/img/images/logo.png" alt="slider image" class="img-responsive">-->
                   </a>
@@ -55,17 +55,17 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                            <h4>EMAIL</h4>
                            <a href="mailto:singhalprakashan@gmail.com?Subject=Enquiry" target="_top" style="">
                               <p>
-                                  singhalprakashan@gmail.com
+                                  naukriwaleindia@gmail.com
                               </p>
                            </a>
                         </div>
-                        <div class="hidden-sm hidden-md hidden-xs singMiddInfo time">
+                        <!-- <div class="hidden-sm hidden-md hidden-xs singMiddInfo time">
                            <i class="fa fa-clock-o"></i>
                            <h4>OPENING TIME</h4>
                            <p>
                               Mon - Sat 9AM - 7PM
                            </p>
-                        </div>
+                        </div> -->
                      </div>
                      <div class="clearfix">
                      </div>
@@ -95,8 +95,8 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                           <a href="/">Home</a></li>
                         <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }}">
                         <a href="{{ route('page','about-us')}}" class="nav-link">About Us</a></li>
-                        <li class="nav-item {{ Request::is('online-form') ? 'active' : '' }}">
-                        <a href="{{ route('page','online-form')}}" class="nav-link">Online Form</a></li>
+                        <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
+                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li>
                      </ul>
                   </div>
                </div>
@@ -125,9 +125,9 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
    <div class="footer-ribbon">
       <a href="#">Get in Touch !</a>
    </div>
-      <div class="col-md-12 col-sm-12 col-xw-12">
+      <!-- <div class="col-md-12 col-sm-12 col-xw-12">
       <p class="visitortotal">Total Visitors: 779925</p>
-   </div>
+   </div> -->
    <div class="row">
 
       <div class="col-md-3 col-sm-6 col-xs-12 padXZ pad00 widthparaaa">
@@ -148,7 +148,7 @@ On your way to success, we aim to be your companion guiding you through the hard
          <div class="socialwidget-2 SocialWidget">
             <div class="widget sep-top-lg">
                <div class="social-widget">
-                  <a target="_blank" href="https://twitter.com/vacancyform">
+                  <a target="_blank" href="">
                   <div class="social-bg">
                      <i class="fa fa-twitter"></i>
                   </div>
@@ -181,26 +181,12 @@ On your way to success, we aim to be your companion guiding you through the hard
 
                         
                <ul>
-                  <li>
-                  <a href="/pages/about_us">About Us</a>
-                  </li>
-                  <li>
-                  <a href="/pages/viewmoreonline">Online Form</a>
-                  </li>
-                  <li>
-                  <a href="/pages/offlinemore">Offline Form</a>
-                  </li><li class=""><a href="/pages/onlinemore/9">Admit Card</a></li>
-                  <li class=""><a href="/pages/onlinemore/10">Syllabus</a></li>
-                                                <li>
-                  <a href="/pages/downloadmore">Download</a>
-                  </li>
-                  <li>
-                  <a href="/pages/linkonline">Links</a>
-                  </li>
-
-                  <a href="/pages/contact_us">Contact Us</a>
-                  </li>
-                     <li class="" style=""><a href="#">Kiosk Subscription</a></li>
+                  <li class="current-menu-item {{ Request::is('/') ? 'active' : '' }}">
+                          <a href="/">Home</a></li>
+                        <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }}">
+                        <a href="{{ route('page','about-us')}}" class="nav-link">About Us</a></li>
+                        <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
+                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li>
                </ul>
             </div>
          </div>
@@ -212,9 +198,10 @@ On your way to success, we aim to be your companion guiding you through the hard
                <h3 class="upper widget-title">Our Location</h3>
                <div class="textwidget">
                   <p>
-                     Singhal Prakashan<br>
-                     7211, Old Subzi Mandi,<br>
-                     Rewari - 123401 [Haryana]
+                     Naukri Wale 
+                     (A UNIT OF SHRI RADHEYSHYAM JINDGAR CHARITABLE TRUST)<br>
+                     523 OLD CITY,<br> 
+                     SGNR - 335001 - IN
                   </p>
                </div>
             </div>

@@ -10,14 +10,14 @@
                      <div class="banner-left">
                         <h1>Easiest way to find your Form</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <a href="/pages/viewmoreonline" class="btn-find-job btnslder">Online Forms</a>
+                        <!-- <a href="/pages/viewmoreonline" class="btn-find-job btnslder">Online Forms</a> -->
                      </div>
                   </div>
                   <div class="col-md-6 col-sm-6 col-xs-12">
                      <div class="banner-right">
                         <h1>Hire Skilled People, best of them</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                        <a href="/pages/offlinemore" class="btn-post-job btnslder">Offline Forms</a>
+                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a>
                      </div>
                   </div>
                </div>

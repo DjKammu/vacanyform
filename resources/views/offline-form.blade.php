@@ -7,7 +7,7 @@
                                 <div class="banner-content col-sm-8 col-xs-10 pull-right padXZ ">
                                         <div class="banner-bottom-content col-sm-12">
                                                 <span class="list-img"><img src="https://www.vacancyform.com/img/images/list.png" style="padding-right:10px; margin-top:-10px" width="46" height="42" align="left"></span>
-                                                <div> Online Forms</div>
+                                                <div> Offline Forms</div>
                                         </div>
                                 </div>
                         </div>
@@ -17,7 +17,7 @@
 <div class="container-fluid SpecialSec">
     <div class="container padXZ pad00">
         <div class="col-md-12 col-xs-12 col-sm-12 padXZ pad00">
-            <h2 class="HeadingTitleami"><span>Online Forms</span></h2>
+            <h2 class="HeadingTitleami"><span>Offline Forms</span></h2>
             <div class="table-responsive">
                             <table class="table table-striped">
                     <thead>
@@ -29,6 +29,7 @@
                             <th>Age Limit</th>
                             <th>Last Date</th>
                             <th>Details</th>
+                            <th>Pdf</th>
                             <th>Online Link</th>
                         </tr>
                     </thead>
@@ -44,6 +45,9 @@
         
                                 <td>
                               <a style="cursor:pointer;" href="{{ $vacancy->details_link }}" target="_blank">View</a>
+                                </td>
+                                <td>
+                              <a style="cursor:pointer;" href="{{ $vacancy->pdf ?? \Storage::url( $vacancy->pdf ) }} " target="_blank">PDF View</a>
                                 </td>
                                 <td>
                                 
