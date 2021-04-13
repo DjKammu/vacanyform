@@ -47,7 +47,7 @@
                               <a style="cursor:pointer;" href="{{ $vacancy->details_link }}" target="_blank">View</a>
                                 </td>
                                 <td>
-                              <a style="cursor:pointer;" href="{{ $vacancy->pdf ?? \Storage::url( $vacancy->pdf ) }} " target="_blank">PDF View</a>
+                              <a style="cursor:pointer;" href="{{ ($vacancy->pdf) ? \Storage::url( $vacancy->pdf ) : ''}} " target="_blank">PDF View</a>
                                 </td>
                                 <td>
                                 
