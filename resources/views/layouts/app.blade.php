@@ -95,8 +95,8 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                           <a href="/">Home</a></li>
                         <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }}">
                         <a href="{{ route('page','about-us')}}" class="nav-link">About Us</a></li>
-                        <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
-                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li>
+                      <!--   <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
+                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li> -->
                      </ul>
                   </div>
                </div>
@@ -136,7 +136,7 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                <div class="textwidget">
                   <p>
 
-               <h3 class="upper widget-title" style="margin-top: -10px;">logo</h3>
+               <h3 class="upper widget-title" style="margin-top: -10px;">About Us</h3>
                   <!--  <img src="" alt="Logo"> -->
                   </p>
                   <p>
@@ -145,7 +145,7 @@ On your way to success, we aim to be your companion guiding you through the hard
                </div>
             </div>
          </div>
-         <div class="socialwidget-2 SocialWidget">
+         <!-- <div class="socialwidget-2 SocialWidget">
             <div class="widget sep-top-lg">
                <div class="social-widget">
                   <a target="_blank" href="">
@@ -171,7 +171,7 @@ On your way to success, we aim to be your companion guiding you through the hard
                   </a>
                </div>
             </div>
-         </div>
+         </div> -->
       </div>
       <div class="col-md-3 col-sm-3 col-xs-12 padXZ pad00 quicklink widthpara quickarea50">
 
@@ -185,8 +185,8 @@ On your way to success, we aim to be your companion guiding you through the hard
                           <a href="/">Home</a></li>
                         <li class="nav-item {{ Request::is('about-us') ? 'active' : '' }}">
                         <a href="{{ route('page','about-us')}}" class="nav-link">About Us</a></li>
-                        <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
-                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li>
+                        <!-- <li class="nav-item {{ Request::is('offline-form') ? 'active' : '' }}">
+                        <a href="{{ route('page','offline-form')}}" class="nav-link">Offline Form</a></li> -->
                </ul>
             </div>
          </div>
@@ -218,7 +218,7 @@ On your way to success, we aim to be your companion guiding you through the hard
                         Your message has been sent. Thank you!
                      </div>
                   </div>
-                  <form method="post" action="/pages/action">
+                  <form method="post" action="">
                      <div class="form wpcf7-form .form-control">
                         <div class="controls controls-row">
                            <input name="name" id="name" placeholder="Name" class="form-control" type="text" required><br>
@@ -242,12 +242,13 @@ On your way to success, we aim to be your companion guiding you through the hard
    <div class="row">
       <div class="col-md-6 col-sm-6 col-xs-12 padXZ pad00">
          <small class="arealeft">
-         © Copyright 2017 vacancyform.com </small>
+         ©  Courtesy of Shri Radheyshyam Jindgar Charitable Trust, Sgnr</small>
       </div>
       <div class="col-md-6 col-sm-6 col-xs-12 text-right ">
          <p class="developedbyimg">Designed &amp; Developed By
-         <a class="" href="http://www.imgglobalinfotech.com" target="_blank">
-         <img src="/img/images/imgglobalinfotech.png" class="imgglobal" alt=""/>       </a>
+         <a class="" href="https://lyrichordszone.com/" target="_blank">
+                Lyrichordszone
+          </a>
       </p>
       </div>
    </div>

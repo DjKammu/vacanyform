@@ -21,14 +21,26 @@
       <h2 class="HeadingTitleami"><span>About Us</span></h2>
       <div class="col-sm-12 col-md-12 col-xs-12 paddingZ">
         <div class="col-sm-7 col-md-7 col-xs-12 aboutText padXZ padleft">
-<p>On your way to success, we aim to be your companion guiding you through the hardships and helping you in achieving your goals. After a decade of successful journey, the brand STC [Singhal Prakashan] is widely known as the leading force in the vacancy form market.<br>
-                  Singhal Prakashan was established in the year 1997, under the leadership of its Founder and Chairperson Mr. Ram Babu Aggarwal.</br> Our meticulously designed books and vacancy forms have helped us to conquer the No.1 position amongst the publishers of vacancy form in northern India. <br>
+<p>Naukriwale.com is the government job portal for offline forms in India emerged
+out with an objective of satisfying the demand of every educated individual to get
+a properly compensated job position in Indian Government sector. On your way
+to success, we aim to be your companion guiding you through the hardships and
+helping you in achieving your goals. Naukriwale.com is widely known as the
+leading force in the vacancy form market.
+</p>
+<p>
+
+Naukriwale.com is controlled by SHRI RADHEY SHYAM JINDGAR
+CHARITABLE TRUST, SGNR Trust was established in the year 2016. When there is
+information everywhere, finding a one-stop-solution is the most crucial task. And
+Naukriwale.com blends exactly with this concept of offering the best of the
+informative resource for all job aspirants from India.<br>
                 </p>
           <ul>
           </ul>
         </div>
         <div class="col-sm-5 col-md-5 col-xs-12 aboutImg padXZ pad00">
-        <img src="https://www.vacancyform.com/img/images/about-image.jpg" alt="about-image" class="img-responsive">
+        <img src="/about-image.jpg" alt="about-image" class="img-responsive">
 
         </div>
       </div>

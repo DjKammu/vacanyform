@@ -14,8 +14,7 @@ class PageController extends Controller
      */
     public function index(Request $request,$slug = null)
     {
-
-    if($slug == 'offline-form'){
+    if($slug == 'offline-form' || $slug == null){
         $vacancies = Vacancy::where('active',Vacancy::ACTIVE)->paginate((new Vacancy())->perPage);
         return view('offline-form',compact('vacancies'));
     }elseif (view()->exists('static'.'/'.$slug)) {

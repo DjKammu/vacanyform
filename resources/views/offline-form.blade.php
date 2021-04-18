@@ -28,8 +28,8 @@
                             <th>Qualification</th>
                             <th>Age Limit</th>
                             <th>Last Date</th>
+                            <th>Syllabus</th>
                             <th>Details</th>
-                            <th>Pdf</th>
                             <th>Online Link</th>
                         </tr>
                     </thead>
@@ -43,12 +43,15 @@
                                 <td>{{ $vacancy->age_limit }}</td>
                                 <td>{{ $vacancy->last_date }}</td>
         
+                           
                                 <td>
-                              <a style="cursor:pointer;" href="{{ $vacancy->details_link }}" target="_blank">View</a>
+                              <a style="cursor:pointer;" href="{{ ($vacancy->pdf) ? \Storage::url( $vacancy->pdf ) : ''}} " target="_blank">View</a>
                                 </td>
-                                <td>
-                              <a style="cursor:pointer;" href="{{ ($vacancy->pdf) ? \Storage::url( $vacancy->pdf ) : ''}} " target="_blank">PDF View</a>
+
+                                     <td>
+                              <a style="cursor:pointer;" href="{{ ($vacancy->details_link) ? \Storage::url( $vacancy->details_link ) : ''}}" target="_blank">View</a>
                                 </td>
+
                                 <td>
                                 
                                 <a href="{{ $vacancy->online_link }}" target="_blank">Click</a></td>

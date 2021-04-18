@@ -57,9 +57,9 @@ class VacancyController extends AdminController
         $show->field('qualification', __('Qualification'));
         $show->field('age_limit', __('Age limit'));
         $show->field('last_date', __('Last date'));
-        $show->field('details_link', __('Details link'))->link();
+        $show->field('pdf', __('Syllabus PDF'))->file();
+        $show->field('details_link', __('Details PDF'))->file();
         $show->field('online_link', __('Online link'))->link();
-        $show->field('pdf', __('Online link'))->file();
         $show->field('active', __('Active'));
         $show->field('created_at', __('Created at'));
         $show->field('updated_at', __('Updated at'));
@@ -81,9 +81,9 @@ class VacancyController extends AdminController
         $form->text('qualification', __('Qualification'))->rules('required');
         $form->text('age_limit', __('Age limit'))->rules('required');
         $form->date('last_date', __('Last date'))->rules('required');
-        $form->text('details_link', __('Details link'))->rules('required');
+        $form->file('pdf', __('Syllabus PDF'))->rules('mimes:pdf');
+        $form->file('details_link', __('Details PDF'))->rules('mimes:pdf');
         $form->text('online_link', __('Online link'))->rules('required');
-        $form->file('pdf', __('PDF'))->rules('mimes:pdf');;
         $form->switch('active', __('Active'))->default(Vacancy::ACTIVE);
 
         return $form;
