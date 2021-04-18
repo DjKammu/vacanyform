@@ -35,7 +35,7 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                <div class="col-md-4 col-sm-4 col-xs-12 padXZ pad00">
                   <a class="navbar-brand" href="/">
                   <p class="vacancyfrom"><span>Naukri Wale</span>
-                  <br><span style="font-size: 8px;" class="paraarea">A UNIT OF SHRI RADHEYSHYAM JINDGAR CHARITABLE TRUST</span>
+                  <br><span style="font-size: 10px;margin-left: 0pc;" class="paraarea">A UNIT OF SHRI RADHEYSHYAM JINDGAR CHARITABLE TRUST</span>
                   </p>
                   <!--<img src="/img/images/logo.png" alt="slider image" class="img-responsive">-->
                   </a>
@@ -53,7 +53,7 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                         <div class="hidden-xs singMiddInfo email">
                            <i class="fa fa-envelope-o"></i>
                            <h4>EMAIL</h4>
-                           <a href="mailto:singhalprakashan@gmail.com?Subject=Enquiry" target="_top" style="">
+                           <a href="mailto:naukriwaleindia@gmail.com?Subject=Enquiry" target="_top" style="">
                               <p>
                                   naukriwaleindia@gmail.com
                               </p>
