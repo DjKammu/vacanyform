@@ -40,7 +40,7 @@ informative resource for all job aspirants from India.<br>
           </ul>
         </div>
         <div class="col-sm-5 col-md-5 col-xs-12 aboutImg padXZ pad00">
-        <img src="/about-image.jpg" alt="about-image" class="img-responsive">
+        <img src="about-image.jpg" alt="about-image" class="img-responsive">
 
         </div>
       </div>
