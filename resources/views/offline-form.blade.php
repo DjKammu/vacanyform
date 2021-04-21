@@ -30,7 +30,7 @@
                             <th>Last Date</th>
                             <th>Syllabus</th>
                             <th>Details</th>
-                            <th>Online Link</th>
+                            <th>Download</th>
                         </tr>
                     </thead>
                     <tbody>
