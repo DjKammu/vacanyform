@@ -21,21 +21,9 @@
       <h2 class="HeadingTitleami"><span>About Us</span></h2>
       <div class="col-sm-12 col-md-12 col-xs-12 paddingZ">
         <div class="col-sm-7 col-md-7 col-xs-12 aboutText padXZ padleft">
-<p>Naukriwale.com is the government job portal for offline forms in India emerged
-out with an objective of satisfying the demand of every educated individual to get
-a properly compensated job position in Indian Government sector. On your way
-to success, we aim to be your companion guiding you through the hardships and
-helping you in achieving your goals. Naukriwale.com is widely known as the
-leading force in the vacancy form market.
-</p>
-<p>
-
-Naukriwale.com is controlled by SHRI RADHEY SHYAM JINDGAR
-CHARITABLE TRUST, SGNR Trust was established in the year 2016. When there is
-information everywhere, finding a one-stop-solution is the most crucial task. And
-Naukriwale.com blends exactly with this concept of offering the best of the
-informative resource for all job aspirants from India.<br>
-                </p>
+          <p>Naukriwale.in is the government job offline forms provider in India emerged out with an objective of satisfying the demand of every educated individual to get a properly compensated job position in Indian Government sector. On your way to success, we aim to be your companion guiding you through the hardships and helping you in achieving your goals. Naukriwale.in is widely known as the leading force in the vacancy form market.</p>
+          <p>Naukriwale.in is controlled by SHRI RADHEY SHYAM JINDGAR CHARITABLE TRUST, SGNR Trust was established in the year 2016. When there is information everywhere, finding a one-stop-solution is the most crucial task. And Naukriwale.in blends exactly with this concept of offering the best of the informative resource for all job aspirants from India. </p>
+         <p>Naukriwale.in is just a portal for providing offline forms for your convenience run by Shri Radheyshyam Jindgar Charitable Trust, Sgnr (Reg.) for no profit & no loss basis. For more details you are advised to look into the departmental website, Rojgaar Samachar etc. Trust would not be liable for any type of mistakes. Sri Ganganagar will be the jurisdiction for any kind of dispute.</p>
           <ul>
           </ul>
         </div>

@@ -140,7 +140,7 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                   <!--  <img src="" alt="Logo"> -->
                   </p>
                   <p>
-On your way to success, we aim to be your companion guiding you through the hardships and helping you in achieving your goals. After a decade of successful journey, the brand STC [Singhal Prakashan] is widely known as the leading force in the vacancy form market.
+Naukriwale.in is the government job offline forms provider in India emerged out with an objective of satisfying the demand of every educated individual to get a properly compensated job position in Indian Government sector. On your way to success, we aim to be your companion guiding you through the hardships and helping you in achieving your goals. Naukriwale.in is widely known as the leading force in the vacancy form market.
                </p>
                </div>
             </div>
