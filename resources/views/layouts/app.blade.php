@@ -47,7 +47,7 @@ th{border: 1px solid #ddd!important;background: rgb(248,232,39);}
                            <i class="fa fa-phone"></i>
                            <h4>PHONE</h4>
                            <p>
-                               9416498137
+                               88750-65697 (10 am to 5 pm)
                            </p>
                         </div>
                         <div class="hidden-xs singMiddInfo email">
